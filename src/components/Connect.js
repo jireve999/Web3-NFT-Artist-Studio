@@ -1,6 +1,5 @@
 import { ethers } from "ethers";
 import { connect } from '../service/connection-service'
-
 import 'react-notifications-component/dist/theme.css'
 
 function Connect() {
@@ -9,13 +8,9 @@ function Connect() {
   }
   return (
     <div>
-    
-
         <a href="javascript:void(0);" onClick={connectWallet}>
           connect
         </a>
-    
-
     </div>
   )
 }
