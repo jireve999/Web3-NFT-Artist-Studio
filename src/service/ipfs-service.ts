@@ -7,7 +7,6 @@ const ipfs =  ipfsHttpClient({
   protocol: 'http'
 })
 
-
 export const addToIpfs = async (entity:any) : Promise<string> => {
   debugger
   const added = await ipfs.add(entity)
