@@ -68,5 +68,5 @@ export const rpcUrl = ()=>{
     return confs[selection].params[0].rpcUrls[0];
 }
 export const IPFS =  {domain:"127.0.0.1", url_prefix:"http://127.0.0.1:8080/ipfs/"}
-// export const ARWEAVE =  {domain:"127.0.0.1", port: 1984, protocol:"http", url_prefix:"http://127.0.0.1:1984/"}
+export const ARWEAVE =  {domain:"127.0.0.1", port: 1984, protocol:"http", url_prefix:"http://127.0.0.1:1984/"}
 
